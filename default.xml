@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="buck"
-           fetch="https://github.com/buckmarble/" />
+           fetch="https://github.com/Buckmarble/" />
 
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/" />
