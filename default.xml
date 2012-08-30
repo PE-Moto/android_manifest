@@ -7,6 +7,9 @@
   <remote  name="buck"
            fetch="https://github.com/Buckmarble/" />
 
+  <remote  name="pemoto"
+           fetch="https://github.com/PE-Moto/" />
+
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/" />
 
@@ -193,7 +196,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="buck" revision="jb" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pemoto" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -254,7 +257,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="buck" revision="jb" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="pemoto" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" remote="buck" revision="master" />
   <project path="packages/apps/SpareParts" name="platform_packages_apps_SpareParts" remote="buck" revision="master" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -308,13 +311,13 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform_system_core" remote="buck" revision="master" />
+  <project path="system/core" name="platform_system_core" remote="pemoto" revision="master" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="vendor/elite" name="platform_vendor_elite" remote="buck" revision="master" />
+  <project path="vendor/elite" name="platform_vendor_elite" remote="moto" revision="master" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="buck" revision="master" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
