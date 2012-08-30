@@ -317,7 +317,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="vendor/elite" name="platform_vendor_elite" remote="moto" revision="master" />
+  <project path="vendor/elite" name="platform_vendor_elite" remote="pemoto" revision="master" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="buck" revision="master" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
