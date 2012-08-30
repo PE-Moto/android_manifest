@@ -1,6 +1,6 @@
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/Buckmarble/android_manifest.git -b master
+    repo init -u git://github.com/PE-Moto/android_manifest.git -b master
 
 Then to sync up:
 
